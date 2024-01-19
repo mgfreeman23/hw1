@@ -591,7 +591,6 @@ TEST(UnrolledList, NoElements)
 TEST(UnrolledList, Front_PushBack)
 {
 	std::vector<std::string> content = {"sup", "er", "cal", "i", "frag", "il", "ist", "ic", "exp", "i", "alo", "doc", "ious"};
-
 	ULListStr * list = makeList(content);
 
 	EXPECT_EQ(list->front(), "sup");
